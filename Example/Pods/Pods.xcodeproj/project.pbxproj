@@ -10,13 +10,6 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>01C87418C45BB74717A76F1B4EDAD9CB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AF13124D8E338203861D6FCFDA691604</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>046CC9DA472BF8DBEC55CABC5A8AC3F9</key>
 		<dict>
 			<key>buildConfigurationList</key>
@@ -87,12 +80,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>097204902A8FE76560002A24545759DD</key>
+		<key>0844C188B8CBE9258325EDAB799BE440</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0E5412261A337F480813E2D865B43EAD</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>AFF177C26BD218636BF35407B9A0F99E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>0E7EF3B529A4336D141CD0C2FEFDDC25</key>
 		<dict>
@@ -100,6 +110,17 @@
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>0EE1810B5392D66C12C72D560B1D65DF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>MyVeryFirstPod-MyVeryFirstPod</string>
+			<key>target</key>
+			<string>178E2F19C44403726F826CF09D0782E0</string>
+			<key>targetProxy</key>
+			<string>21D4D45019E180A73D1227D602E9DC3C</string>
 		</dict>
 		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
 		<dict>
@@ -231,6 +252,31 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>178E2F19C44403726F826CF09D0782E0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>3FE5E099E7F24F8E1C67ACC8BE80DAC8</string>
+			<key>buildPhases</key>
+			<array>
+				<string>0844C188B8CBE9258325EDAB799BE440</string>
+				<string>1F9BD7E935C4ED73AE9D831BA2467673</string>
+				<string>F16424E8F86D5F512927A006D9293782</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MyVeryFirstPod-MyVeryFirstPod</string>
+			<key>productName</key>
+			<string>MyVeryFirstPod-MyVeryFirstPod</string>
+			<key>productReference</key>
+			<string>AF13124D8E338203861D6FCFDA691604</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle</string>
+		</dict>
 		<key>18C2A924780BA7473D74AF712374A18F</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -251,23 +297,27 @@
 			<key>name</key>
 			<string>MyVeryFirstPod</string>
 			<key>target</key>
-			<string>D4FA4DB8F87FAF281FD13DF948197D5A</string>
+			<string>86DF9199060BC9DC23731C9297DBFAC4</string>
 			<key>targetProxy</key>
 			<string>B443AB53ECDA4F8D6CA7DB770D71444B</string>
 		</dict>
-		<key>2075B1A1066F1753DFFB435F1EAA70C3</key>
+		<key>1F63A5064A526A275A08A7E3C8AB1DDE</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>86B19372E16E3AF2732DFD085CCDE0C6</string>
-				<string>3A8994AE4AEC415F776EBC3076A2613B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>fileRef</key>
+			<string>AF13124D8E338203861D6FCFDA691604</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1F9BD7E935C4ED73AE9D831BA2467673</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>20783CA6E6729FA440374116B2BEAE5F</key>
 		<dict>
@@ -292,36 +342,50 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>D4FA4DB8F87FAF281FD13DF948197D5A</string>
+			<string>86DF9199060BC9DC23731C9297DBFAC4</string>
 			<key>remoteInfo</key>
 			<string>MyVeryFirstPod</string>
 		</dict>
-		<key>24489660DBA3D23E54E82249E36CE2BB</key>
+		<key>20EC0FC83CF030ADE03D1DDB85CD338E</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReplaceMe.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2557D459B8456DD55D0CE965F5A2B14B</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>E693457481BBC4C0D14E3C41C28E2ACC</string>
-				<string>A71D0F19084B2117107093A0741FF8B7</string>
+				<string>83047635BAEB9B807C800716BB643057</string>
+				<string>BCE0292D847694DDD175C4CD44D04599</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>21CE46458DF5578EB102C20B549E8C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C545EBDC351EA256894520DFF0092C8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>21D4D45019E180A73D1227D602E9DC3C</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>178E2F19C44403726F826CF09D0782E0</string>
+			<key>remoteInfo</key>
+			<string>MyVeryFirstPod-MyVeryFirstPod</string>
 		</dict>
 		<key>2682426293EB0FDDD4795C2B15D7D0DD</key>
 		<dict>
@@ -372,19 +436,6 @@
 			<string>Target Support Files/Pods-MyVeryFirstPod_Tests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>29814EFCC59E68C4DEB97D1E530B3841</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>097204902A8FE76560002A24545759DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -467,27 +518,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A8994AE4AEC415F776EBC3076A2613B</key>
+		<key>3C545EBDC351EA256894520DFF0092C8</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>47058AF4E55A0664A3D7CE3105E41E96</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>MyVeryFirstPod</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>BlinkingLabel.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>3CAAF1C080A2B125F1682B13B928F83E</key>
 		<dict>
@@ -517,6 +559,20 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
+		<key>3FE5E099E7F24F8E1C67ACC8BE80DAC8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F0F3EB4DD4E5A502ED0838A6075C9384</string>
+				<string>A60DDE45ED59F4245E719AF0696B9955</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
 		<key>4214C171AB1D11DA5EE9C381D6A057DF</key>
 		<dict>
 			<key>fileRef</key>
@@ -530,17 +586,6 @@
 					<string>Public</string>
 				</array>
 			</dict>
-		</dict>
-		<key>45B46A2D52DFEF2C4D27C8ACB20523D4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>47058AF4E55A0664A3D7CE3105E41E96</key>
 		<dict>
@@ -591,13 +636,6 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>54B45F027E8A79809622E3ABF257CA0A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D2E3F3F82892E9D2E45335E8717C19F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>552D02D5BA751AC2E8790D2811D496CA</key>
 		<dict>
@@ -700,21 +738,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6550C1EA20C896B112762F155F5FF48C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D2A3A75B5E9B9393DED4EF18D2267D7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MyVeryFirstPod</string>
-			<key>path</key>
-			<string>MyVeryFirstPod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>65611D496BC6035548D1C5C49C543EAF</key>
 		<dict>
 			<key>fileRef</key>
@@ -804,44 +827,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6E8B8FFA7F2A2E435D7F71681EDE715B</key>
+		<key>6A953EA659DA06EF59889019B634DAF8</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
+			<key>fileRef</key>
+			<string>BA97F8ABE512EBFDBB568C0F819F226E</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7AC0098316F5C35B07442DF1934E072D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>01C87418C45BB74717A76F1B4EDAD9CB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7D2A3A75B5E9B9393DED4EF18D2267D7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>24489660DBA3D23E54E82249E36CE2BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
@@ -869,27 +867,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>86B19372E16E3AF2732DFD085CCDE0C6</key>
+		<key>83047635BAEB9B807C800716BB643057</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>47058AF4E55A0664A3D7CE3105E41E96</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>MyVeryFirstPod</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
+			<key>fileRef</key>
+			<string>C32816A67E64C78D576F180868ACE688</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>86DF9199060BC9DC23731C9297DBFAC4</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>DA541C2320532EE5E82333707A489BCF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>20EC0FC83CF030ADE03D1DDB85CD338E</string>
+				<string>0E5412261A337F480813E2D865B43EAD</string>
+				<string>B5B12F87DA0EB9CB97EC4BD9E25410E3</string>
+				<string>DD0C43713F57B16B706CF3F6EB66A97A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>0EE1810B5392D66C12C72D560B1D65DF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>MyVeryFirstPod</string>
+			<key>productName</key>
+			<string>MyVeryFirstPod</string>
+			<key>productReference</key>
+			<string>3CAAF1C080A2B125F1682B13B928F83E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>8832D4F21F75C62A59A553BA79E11B50</key>
 		<dict>
@@ -966,20 +977,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8FD9F6B200B2776C746465813E7FF7A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BA97F8ABE512EBFDBB568C0F819F226E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>909DD859353FE37C6BE18787BFDA8AE3</key>
 		<dict>
 			<key>children</key>
@@ -1014,19 +1011,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9BBFEB3866C18819B3D1F260CDA2676A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BBF665A6DD9878D3F4A33A02A468B72E</string>
-			<key>remoteInfo</key>
-			<string>MyVeryFirstPod-MyVeryFirstPod</string>
-		</dict>
 		<key>A0BABAF8FF3657EF6BA593E2628D1B03</key>
 		<dict>
 			<key>isa</key>
@@ -1034,9 +1018,103 @@
 			<key>name</key>
 			<string>MyVeryFirstPod</string>
 			<key>target</key>
-			<string>D4FA4DB8F87FAF281FD13DF948197D5A</string>
+			<string>86DF9199060BC9DC23731C9297DBFAC4</string>
 			<key>targetProxy</key>
 			<string>20B32BB08D879335A66F497242FE0A8A</string>
+		</dict>
+		<key>A1B5FBB6B56FAE6E2DFB3E0116A0D287</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3C545EBDC351EA256894520DFF0092C8</string>
+				<string>C32816A67E64C78D576F180868ACE688</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A37A710062AADE36C323AD380CF2FF2C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>47058AF4E55A0664A3D7CE3105E41E96</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MyVeryFirstPod/MyVeryFirstPod-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/MyVeryFirstPod/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/MyVeryFirstPod/MyVeryFirstPod.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>MyVeryFirstPod</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A60DDE45ED59F4245E719AF0696B9955</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>47058AF4E55A0664A3D7CE3105E41E96</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>MyVeryFirstPod</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>A6B94712CD97CA139375278D568AFCBD</key>
 		<dict>
@@ -1113,62 +1191,6 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>A71D0F19084B2117107093A0741FF8B7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>47058AF4E55A0664A3D7CE3105E41E96</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MyVeryFirstPod/MyVeryFirstPod-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MyVeryFirstPod/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MyVeryFirstPod/MyVeryFirstPod.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>MyVeryFirstPod</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
 		<key>AF13124D8E338203861D6FCFDA691604</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -1184,23 +1206,19 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>B086FC9F1CFD02B336CC6091879A395A</key>
+		<key>AFF177C26BD218636BF35407B9A0F99E</key>
 		<dict>
 			<key>fileRef</key>
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>B3A536750BC25131493C6FA3FABAD716</key>
+		<key>B086FC9F1CFD02B336CC6091879A395A</key>
 		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>MyVeryFirstPod-MyVeryFirstPod</string>
-			<key>target</key>
-			<string>BBF665A6DD9878D3F4A33A02A468B72E</string>
-			<key>targetProxy</key>
-			<string>9BBFEB3866C18819B3D1F260CDA2676A</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B3BB5A09FE98AA98459071804D07D5FA</key>
 		<dict>
@@ -1224,7 +1242,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>D4FA4DB8F87FAF281FD13DF948197D5A</string>
+			<string>86DF9199060BC9DC23731C9297DBFAC4</string>
 			<key>remoteInfo</key>
 			<string>MyVeryFirstPod</string>
 		</dict>
@@ -1240,6 +1258,19 @@
 			<string>Pods-MyVeryFirstPod_Tests-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5B12F87DA0EB9CB97EC4BD9E25410E3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1F63A5064A526A275A08A7E3C8AB1DDE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>B6021BC187F3EFDEC10368CFE1CF74A0</key>
 		<dict>
@@ -1284,31 +1315,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BBF665A6DD9878D3F4A33A02A468B72E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2075B1A1066F1753DFFB435F1EAA70C3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>6E8B8FFA7F2A2E435D7F71681EDE715B</string>
-				<string>E7F4462B6E1DE8FDE7A5C8484945DBBD</string>
-				<string>45B46A2D52DFEF2C4D27C8ACB20523D4</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MyVeryFirstPod-MyVeryFirstPod</string>
-			<key>productName</key>
-			<string>MyVeryFirstPod-MyVeryFirstPod</string>
-			<key>productReference</key>
-			<string>AF13124D8E338203861D6FCFDA691604</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
 		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
 			<key>children</key>
@@ -1322,6 +1328,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>BCE0292D847694DDD175C4CD44D04599</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8D2E3F3F82892E9D2E45335E8717C19F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
 			<key>children</key>
@@ -1332,6 +1345,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C32816A67E64C78D576F180868ACE688</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>BlinkingLabel.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1374,13 +1400,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C8C0957F0631599E0E5EDD6C20E221DB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24489660DBA3D23E54E82249E36CE2BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>CAB2C2D61DF53CC59283E7F55F447728</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1391,6 +1410,21 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-MyVeryFirstPod_Tests-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CFC38F572C40CE9AF7F059A713B13FE8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A1B5FBB6B56FAE6E2DFB3E0116A0D287</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MyVeryFirstPod</string>
+			<key>path</key>
+			<string>MyVeryFirstPod</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1440,39 +1474,11 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>D4FA4DB8F87FAF281FD13DF948197D5A</string>
-				<string>BBF665A6DD9878D3F4A33A02A468B72E</string>
+				<string>86DF9199060BC9DC23731C9297DBFAC4</string>
+				<string>178E2F19C44403726F826CF09D0782E0</string>
 				<string>F5124BFF12F23B4CBFC18E43CDA11943</string>
 				<string>046CC9DA472BF8DBEC55CABC5A8AC3F9</string>
 			</array>
-		</dict>
-		<key>D4FA4DB8F87FAF281FD13DF948197D5A</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2557D459B8456DD55D0CE965F5A2B14B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F0463F22D7DC8F68EA2EB271C46D744C</string>
-				<string>29814EFCC59E68C4DEB97D1E530B3841</string>
-				<string>7AC0098316F5C35B07442DF1934E072D</string>
-				<string>D8F5C841C7F3087E333683160A04E78C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>B3A536750BC25131493C6FA3FABAD716</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MyVeryFirstPod</string>
-			<key>productName</key>
-			<string>MyVeryFirstPod</string>
-			<key>productReference</key>
-			<string>3CAAF1C080A2B125F1682B13B928F83E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>D87FFEEC7979D91AA072BCFF2822000C</key>
 		<dict>
@@ -1500,13 +1506,28 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D8F5C841C7F3087E333683160A04E78C</key>
+		<key>DA541C2320532EE5E82333707A489BCF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F9DBF81D1E748839DC4F724A804651CC</string>
+				<string>A37A710062AADE36C323AD380CF2FF2C</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>DD0C43713F57B16B706CF3F6EB66A97A</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>8FD9F6B200B2776C746465813E7FF7A1</string>
+				<string>21CE46458DF5578EB102C20B549E8C51</string>
+				<string>6A953EA659DA06EF59889019B634DAF8</string>
 			</array>
 			<key>isa</key>
 			<string>PBXHeadersBuildPhase</string>
@@ -1526,7 +1547,160 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E693457481BBC4C0D14E3C41C28E2ACC</key>
+		<key>EA340A5A8DA7A72FD1490F6CF04E507B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>2682426293EB0FDDD4795C2B15D7D0DD</string>
+				<string>51439B3E5AC89B382A17D00432B83192</string>
+				<string>47058AF4E55A0664A3D7CE3105E41E96</string>
+				<string>8D2E3F3F82892E9D2E45335E8717C19F</string>
+				<string>61FE23997CCBA71E371654E7F7EC07A5</string>
+				<string>BA97F8ABE512EBFDBB568C0F819F226E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/MyVeryFirstPod</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EBA47A969333F1ADBBF27667E521EEDC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>91A5857014D244C3F2B6D4AB24C68990</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EEEA340128CB0A217826F34D92B5E7FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C8908A5D42549A02C78765DB612AB878</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F0F3EB4DD4E5A502ED0838A6075C9384</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>47058AF4E55A0664A3D7CE3105E41E96</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>MyVeryFirstPod</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>bundle</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F16424E8F86D5F512927A006D9293782</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F5124BFF12F23B4CBFC18E43CDA11943</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>20783CA6E6729FA440374116B2BEAE5F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B3BB5A09FE98AA98459071804D07D5FA</string>
+				<string>2E7A6580C512864C2FCD722D695AB93F</string>
+				<string>18C2A924780BA7473D74AF712374A18F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>A0BABAF8FF3657EF6BA593E2628D1B03</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-MyVeryFirstPod_Example</string>
+			<key>productName</key>
+			<string>Pods-MyVeryFirstPod_Example</string>
+			<key>productReference</key>
+			<string>2F2CAB17060B3FB2FCE49FC393F7E5ED</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>F6AA9D41AC55EF51219F2259418000D2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CFC38F572C40CE9AF7F059A713B13FE8</string>
+				<string>EA340A5A8DA7A72FD1490F6CF04E507B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MyVeryFirstPod</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F6B93EE937308BB0455A00F8F4715000</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>52D46569C494F27F4F08A06A583B24D1</string>
+				<string>D16426CC5F683C6D6881EACB6C815363</string>
+				<string>FDC47A3987BAA44D283345B018A296A4</string>
+				<string>D8B990C8F0E9AB8BB78A439166054812</string>
+				<string>C8908A5D42549A02C78765DB612AB878</string>
+				<string>F90F9199706BE3FA5B0386B169499237</string>
+				<string>B6021BC187F3EFDEC10368CFE1CF74A0</string>
+				<string>30B8EE1EE370603E4416BA61356FDB30</string>
+				<string>27A615634E379AD7DD7601C8DD46A536</string>
+				<string>C82DD834FE9442290595C1123A5E366D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-MyVeryFirstPod_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-MyVeryFirstPod_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F90F9199706BE3FA5B0386B169499237</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-MyVeryFirstPod_Example-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F9DBF81D1E748839DC4F724A804651CC</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>47058AF4E55A0664A3D7CE3105E41E96</string>
@@ -1581,151 +1755,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>E7F4462B6E1DE8FDE7A5C8484945DBBD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EA340A5A8DA7A72FD1490F6CF04E507B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2682426293EB0FDDD4795C2B15D7D0DD</string>
-				<string>51439B3E5AC89B382A17D00432B83192</string>
-				<string>47058AF4E55A0664A3D7CE3105E41E96</string>
-				<string>8D2E3F3F82892E9D2E45335E8717C19F</string>
-				<string>61FE23997CCBA71E371654E7F7EC07A5</string>
-				<string>BA97F8ABE512EBFDBB568C0F819F226E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/MyVeryFirstPod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBA47A969333F1ADBBF27667E521EEDC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>91A5857014D244C3F2B6D4AB24C68990</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EEEA340128CB0A217826F34D92B5E7FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C8908A5D42549A02C78765DB612AB878</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F0463F22D7DC8F68EA2EB271C46D744C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>54B45F027E8A79809622E3ABF257CA0A</string>
-				<string>C8C0957F0631599E0E5EDD6C20E221DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F5124BFF12F23B4CBFC18E43CDA11943</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>20783CA6E6729FA440374116B2BEAE5F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B3BB5A09FE98AA98459071804D07D5FA</string>
-				<string>2E7A6580C512864C2FCD722D695AB93F</string>
-				<string>18C2A924780BA7473D74AF712374A18F</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A0BABAF8FF3657EF6BA593E2628D1B03</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MyVeryFirstPod_Example</string>
-			<key>productName</key>
-			<string>Pods-MyVeryFirstPod_Example</string>
-			<key>productReference</key>
-			<string>2F2CAB17060B3FB2FCE49FC393F7E5ED</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>F6AA9D41AC55EF51219F2259418000D2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6550C1EA20C896B112762F155F5FF48C</string>
-				<string>EA340A5A8DA7A72FD1490F6CF04E507B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MyVeryFirstPod</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6B93EE937308BB0455A00F8F4715000</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>52D46569C494F27F4F08A06A583B24D1</string>
-				<string>D16426CC5F683C6D6881EACB6C815363</string>
-				<string>FDC47A3987BAA44D283345B018A296A4</string>
-				<string>D8B990C8F0E9AB8BB78A439166054812</string>
-				<string>C8908A5D42549A02C78765DB612AB878</string>
-				<string>F90F9199706BE3FA5B0386B169499237</string>
-				<string>B6021BC187F3EFDEC10368CFE1CF74A0</string>
-				<string>30B8EE1EE370603E4416BA61356FDB30</string>
-				<string>27A615634E379AD7DD7601C8DD46A536</string>
-				<string>C82DD834FE9442290595C1123A5E366D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-MyVeryFirstPod_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-MyVeryFirstPod_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F90F9199706BE3FA5B0386B169499237</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-MyVeryFirstPod_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FDC47A3987BAA44D283345B018A296A4</key>
 		<dict>

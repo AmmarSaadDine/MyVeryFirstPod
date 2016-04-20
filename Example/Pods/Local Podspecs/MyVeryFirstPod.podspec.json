@@ -1,15 +1,15 @@
 {
   "name": "MyVeryFirstPod",
   "version": "0.1.0",
-  "summary": "A short description of MyVeryFirstPod.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MyVeryFirstPod",
+  "summary": "A Test pod",
+  "description": "Actually my first pod",
+  "homepage": "https://github.com/AmmarSaadDine/MyVeryFirstPod",
   "license": "MIT",
   "authors": {
     "AmmarSaadDine": "ammar.as.89@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MyVeryFirstPod.git",
+    "git": "https://github.com/AmmarSaadDine/MyVeryFirstPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
