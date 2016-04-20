@@ -1,0 +1,24 @@
+{
+  "name": "MyVeryFirstPod",
+  "version": "0.1.0",
+  "summary": "A short description of MyVeryFirstPod.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MyVeryFirstPod",
+  "license": "MIT",
+  "authors": {
+    "AmmarSaadDine": "ammar.as.89@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MyVeryFirstPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MyVeryFirstPod/Classes/**/*",
+  "resource_bundles": {
+    "MyVeryFirstPod": [
+      "MyVeryFirstPod/Assets/*.png"
+    ]
+  }
+}

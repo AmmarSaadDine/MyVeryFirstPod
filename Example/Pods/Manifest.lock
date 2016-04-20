@@ -1,0 +1,14 @@
+PODS:
+  - MyVeryFirstPod (0.1.0)
+
+DEPENDENCIES:
+  - MyVeryFirstPod (from `../`)
+
+EXTERNAL SOURCES:
+  MyVeryFirstPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyVeryFirstPod: 3b24ad6359bb81e1eaded9453b85e01f7915045a
+
+COCOAPODS: 0.39.0
