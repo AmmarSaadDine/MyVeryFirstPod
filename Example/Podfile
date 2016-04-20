@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyVeryFirstPod_Example', :exclusive => true do
+  pod 'MyVeryFirstPod', :path => '../'
+end
+
+target 'MyVeryFirstPod_Tests', :exclusive => true do
+  pod 'MyVeryFirstPod', :path => '../'
+
+  
+end
